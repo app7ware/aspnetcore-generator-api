@@ -18,8 +18,8 @@ namespace tests
         [Fact]
         public void SortShouldOrderResults() 
         {
-            var range = new Range { Count = 3, Sort = 2 };
-            var calues = new { "a", "c", "b" };
+            var range = new Range { Count = 3, Sort = true };
+            var values = new[] { "a", "c", "b" };
             var counter = 0;
             var generated = range.Of(() => values[counter++]);
 
