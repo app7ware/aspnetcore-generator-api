@@ -2,7 +2,7 @@ version: '3'
 
 services:
   generator:
-    image: app7ware.azurecr.io/gen:ci-${GENERATOR_BUILD_NUMBER-15}
+    image: app7ware.azurecr.io/gen:ci-${GENERATOR_BUILD_NUMBER-19}
     ports:
       - "8080:80"
   mail:
